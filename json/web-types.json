@@ -1,0 +1,69 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JetBrains/web-types/master/schema/web-types.json",
+  "framework": "vue",
+  "name": "just-pdf-viewer",
+  "version": "1.0.0",
+  "contributions": {
+    "html": {
+      "types-syntax": "typescript",
+      "description-markup": "markdown",
+      "types": [{
+        "name": "just-pdf-viewer",
+        "attributes": [
+          {
+            "name": "width",
+            "description": "Specify viewer's width",
+            "value": {
+              "type": "string",
+              "kind": "expression"
+            }
+          },
+          {
+            "name": "height",
+            "description": "Specify viewer's height",
+            "value": {
+              "type": "string",
+              "kind": "expression"
+            }
+          },
+          {
+            "name": "src",
+            "description": "Specify viewer's pdf resource src",
+            "value": {
+              "type": "string | URL | TypedArray | ArrayBuffer | DocumentInitParameters",
+              "kind": "expression"
+            }
+          },
+          {
+            "name": "rotatable",
+            "description": "Specify whether it can rotate",
+            "value": {
+              "type": "boolean",
+              "kind": "expression"
+            }
+          },
+          {
+            "name": "scalable",
+            "description": "Specify whether it can scale",
+            "value": {
+              "type": "boolean",
+              "kind": "expression"
+            }
+          },
+          {
+            "name": "lazy-load",
+            "description": "Specify whether it renders all or not",
+            "value": {
+              "type": "boolean",
+              "kind": "expression"
+            }
+          }
+        ],
+        "events": [
+        ],
+        "slots": []
+      }
+      ]
+    }
+  }
+}

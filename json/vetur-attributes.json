@@ -1,0 +1,20 @@
+{
+  "just-pdf-viewer/width": {
+    "description": "Specify viewer's width"
+  },
+  "just-pdf-viewer/height": {
+    "description": "Specify viewer's height"
+  },
+  "just-pdf-viewer/src": {
+    "description": "Specify viewer's pdf resource src"
+  },
+  "just-pdf-viewer/rotatable": {
+    "description": "Specify whether it can rotate"
+  },
+  "just-pdf-viewer/scalable": {
+    "description": "Specify whether it can scale"
+  },
+  "just-pdf-viewer/lazy-load": {
+    "description": "Specify whether it renders all or not"
+  }
+}

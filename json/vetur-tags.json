@@ -1,0 +1,12 @@
+{
+  "just-pdf-viewer": {
+    "attributes": [
+      "width",
+      "height",
+      "src",
+      "rotatable",
+      "scalable",
+      "lazy-load"
+    ]
+  }
+}
